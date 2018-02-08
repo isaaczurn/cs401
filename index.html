@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="src/style.css" type="text/css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="navbar">
+        <span>Steam:FYI</span>
+        <ul>
+            <li>Account</li>
+            <li>Games</li>
+            <li>Home</li>
+        </ul>
+    </div>
+
+    <div class="searchbar">
+        <input id="searchbar" type="text" name="search" placeholder="Search">
+        <input type="submit" value="Search">
+    </div>
+</body>
+
+
+<?php
+    # _POST holds input from forms, so searchterm = input from search box
+    $searchterm = $_POST["search"];
+
+    # header( ) function for redirects
+
+?>
