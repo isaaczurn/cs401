@@ -11,14 +11,14 @@
         <ul>
             <li>Account</li>
             <li>Games</li>
-            <li>Home</li>
+            <li class="currentpage">Home</li>
         </ul>
     </div>
 
-    <div class="searchbar">
+    <form class="searchbar" autocomplete="off">
         <input id="searchbar" type="text" name="search" placeholder="Search">
-        <input type="submit" value="Search">
-    </div>
+        <button type="submit" value="Search" class="searchbutton">FYI</button>
+    </form>
 </body>
 
 
@@ -27,5 +27,9 @@
     $searchterm = $_POST["search"];
 
     # header( ) function for redirects
+
+    databases:
+    select, delect, update, insert
+    SELECT * FROM table WHERE param='whatever';
 
 ?>
