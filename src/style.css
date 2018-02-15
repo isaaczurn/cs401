@@ -148,7 +148,7 @@ footer {
     font-family: "Noto Sans";
     align-self: center;
     background-color: #222;
-    color: #FFEB3B;
+    color: #FFF9C4;
     height: 25px;
     width: 100%;
     left: 0;
@@ -157,6 +157,12 @@ footer {
     font-size: 14px;
     padding-top: 0.55em;
     z-index: 1;
+}
+
+.footertext a {
+    color: #FFEB3B;
+    font-family: "Noto Sans";
+    font-size: 14px;
 }
 
 .footertext {
