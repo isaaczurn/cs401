@@ -39,8 +39,8 @@ span {
     z-index: 1004;
 }
 
-.currentpage {
-    /*border-bottom: 2px solid tomato;*/
+.currentpage a {
+    color: #F44336
 }
 
 ul {
