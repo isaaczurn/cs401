@@ -1,3 +1,25 @@
+
+```
+
+<!--
+<?php
+    # _POST holds input from forms, so searchterm = input from search box
+    #$searchterm = $_POST["search"];
+
+    # header( ) function for redirects
+
+    #databases:
+    #select, delect, update, insert
+    #SELECT * FROM table WHERE param='whatever';
+
+#    query->bindParam(":key", $param); <-- to fight sql injections
+
+
+?>
+-->
+```
+
+
 ```
 
 
