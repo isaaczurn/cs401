@@ -4,7 +4,7 @@
     include("footer.php");
 ?>
 
-<body>
+
     <div class="logincontainer">
         <form id="login" autocomplete="off" method="post" action="loginuser.php">
             <input id="username" type="text" name="username" placeholder="Username">

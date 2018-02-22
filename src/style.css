@@ -43,7 +43,7 @@ span {
     color: #F44336
 }
 
-ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -51,7 +51,7 @@ ul {
     display: inline;
 }
 
-li {
+.navbar li {
     float: right;
     margin: 0 10px;
     position: relative;
@@ -59,7 +59,7 @@ li {
     /*border: 2px solid #fff;*/
 }
 
-li:hover {
+.navbar li:hover {
     /*border: 2px solid tomato;*/
 }
 
@@ -181,4 +181,24 @@ footer {
 
 .logincontainer #login input {
     display: inline-block;
+}
+
+.gameslistcontainer {
+    margin: 125px auto;
+    position: relative;
+    width: 70%;
+}
+
+.gameslistcontainer ul {
+    list-style-type: none;
+}
+
+.gameslistcontainer li {
+    /*text-decoration: none;*/
+    font-family: "Noto Sans";
+    color: #F44336;
+    background-color: #FFF9C4;
+    border-radius: 2px;
+    margin: 5px;
+    height: 50px;
 }
