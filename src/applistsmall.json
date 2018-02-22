@@ -1,6 +1,10 @@
 {
 	"applist": {
 		"apps": [
+            {
+                "appid": 730,
+                "name": "Counter-Strike: Global Offensive"
+            },
 			{
 				"appid": 5,
 				"name": "Dedicated Server"

@@ -13,8 +13,10 @@ html {
 body {
     margin: 0;
     /*background-color: #F44336;*/
-    background-color: #424242;
-    color: #FFEB3B;
+    /*background-color: #424242;*/
+    background-color: #fff;
+    /*color: #FFEB3B;*/
+    color: #424242;
     /*height: 95%;*/
 }
 
@@ -29,7 +31,9 @@ span {
     width: 100%;
     height: 50px;
     margin: 0 auto;
-    background-color: #222;
+    /*background-color: #222;*/
+    background-color: #fff;
+    border-bottom: 1px solid #222;
     /*text-transform: uppercase;*/
     font-size: 1.4em;
     position: fixed;
@@ -37,6 +41,12 @@ span {
     left: 0;
     right: 0;
     z-index: 1004;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #424242;
+    text-transform: uppercase;
 }
 
 .currentpage a {
@@ -66,7 +76,7 @@ span {
 .searchbar {
     position: relative;
     margin: 125px auto 0 auto;
-    width: 50%;
+    width: 25%;
     height: 50px;
     border-radius: 2px;
     background-color: #fff;
@@ -83,7 +93,8 @@ span {
     color: #9b9b9b;
     box-sizing: border-box;
     outline: none;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+    border-bottom: 1px solid #222;
+    /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);*/
 }
 
 .searchbutton {
@@ -108,27 +119,21 @@ span {
     color: #222;
 }
 
-a {
-    text-decoration: none;
-    color: #FFF9C4;
-    text-transform: uppercase;
-}
-
 .about {
     position: relative;
     margin: 60px auto 50px auto;
     font-family: "Lora";
     font-size: 20px;
     padding: 0 15% 10px 15%;
-    /*background-color: #F44336;*/
-    background-color: #424242;
+    background-color: #fff;
+    /*background-color: #424242;*/
     width: 70%;
     color: #FFEB3B;
     z-index: 2;
 }
 
 .about h1 {
-    border-top: 3px solid #222;
+    /*border-top: 1px solid #222;*/
     padding-top: 10px;
     padding-left: 10px;
     margin-bottom: 5px;
@@ -141,14 +146,15 @@ a {
     padding: 0 10px;
     font-family: "Lora";
     font-size: 18px;
-    color: #FFF9C4;
+    color: #424242;
 }
 
 footer {
     font-family: "Noto Sans";
     /*align-items: center;*/
-    background-color: #222;
-    color: #FFF9C4;
+    border-top: 1px solid #222;
+    background-color: #fff;
+    color: #424242;
     height: 25px;
     width: 100%;
     left: 0;
@@ -160,7 +166,8 @@ footer {
 }
 
 .footertext a {
-    color: #FFEB3B;
+    text-decoration: none;
+    color: #F44336;
     font-family: "Noto Sans";
     font-size: 14px;
 }
@@ -187,6 +194,7 @@ footer {
     margin: 125px auto;
     position: relative;
     width: 70%;
+    z-index: 5;
 }
 
 .gameslistcontainer ul {
@@ -197,8 +205,9 @@ footer {
     /*text-decoration: none;*/
     font-family: "Noto Sans";
     color: #F44336;
-    background-color: #FFF9C4;
-    border-radius: 2px;
+    /*background-color: #222;*/
+    border-top: 1px solid #222;
+    /*border-radius: 2px;*/
     margin: 5px;
     height: 50px;
 }

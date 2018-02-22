@@ -2,6 +2,7 @@
 
 <head>
     <link href=<?php if ($thisPage == "index") {echo '"src/style.css"';} else {echo '"style.css"';} ?> type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
