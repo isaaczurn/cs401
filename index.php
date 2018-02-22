@@ -1,1 +1,5 @@
-<?php require_once("index.html"); ?>
+<?php
+    $thisPage = "index";
+    include("src/header.php");
+    require_once("index.html");
+?>
