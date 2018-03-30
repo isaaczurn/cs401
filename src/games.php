@@ -2,6 +2,8 @@
     $thisPage = "games";
     include("header.php");
     include("footer.php");
+    // require_once("dao.php");
+    // $dao = new Dao();
 ?>
 
     <div class="gameslistcontainer">
