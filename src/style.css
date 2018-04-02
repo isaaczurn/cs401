@@ -15,8 +15,8 @@ body {
     /*background-color: #F44336;*/
     /*background-color: #424242;*/
     background-color: #fff;
-    /*color: #FFEB3B;*/
-    color: #424242;
+    /*color: #F44336;*/
+    color: #222;
     /*height: 95%;*/
 }
 
@@ -44,6 +44,7 @@ span {
 }
 
 .navbar a {
+    /* font-family: 'Lora'; */
     text-decoration: none;
     color: #424242;
     text-transform: uppercase;
@@ -109,13 +110,13 @@ span {
     padding: 0;
     border: none;
     background-color: #222;
-    color: #FFEB3B;
+    color: #F44336;
     cursor: pointer;
     border-radius: 2px;
 }
 
 .searchbutton:hover {
-    background-color: #FFEB3B;
+    background-color: #F44336;
     color: #222;
 }
 
@@ -133,7 +134,7 @@ span {
     background-color: #fff;
     /*background-color: #424242;*/
     width: 70%;
-    color: #FFEB3B;
+    color: #F44336;
     z-index: 2;
 }
 
@@ -150,6 +151,98 @@ span {
     margin-top: 5px;
     padding: 0 10px;
     font-family: "Lora";
+    font-size: 18px;
+    color: #424242;
+}
+
+.game {
+    position: relative;
+    margin: 60px auto 50px auto;
+    font-family: "Lora";
+    font-size: 20px;
+    padding: 0 15% 10px 15%;
+    background-color: #fff;
+    /*background-color: #424242;*/
+    width: 70%;
+    color: #F44336;
+    z-index: 2;
+    text-decoration: none;
+}
+
+.game h1 {
+    /*border-top: 1px solid #222;*/
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    margin-bottom: 0px;
+    margin-right: auto;
+    font-family: "Noto Sans";
+    font-size: 28px;
+    /* text-transform: uppercase; */
+}
+
+.game h2 {
+    /*border-top: 1px solid #222;*/
+    /* padding-top: 10px;
+    padding-left: 10px; */
+    margin: 0 auto 0 auto;
+    font-family: "Noto Sans";
+    font-size: 20px;
+    color: #222;
+    text-decoration: none;
+}
+
+.news div {
+    margin: 0;
+}
+
+.news {
+    text-decoration: none;
+    position: relative;
+    margin: 20px auto 50px auto;
+    font-family: "Raleway";
+    font-size: 20px;
+    /* padding: 0 15% 10px 15%; */
+    background-color: #fff;
+    /*background-color: #424242;*/
+    /* width: 70%; */
+    color: #F44336;
+    z-index: 2;
+}
+
+.news h1 {
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    margin-bottom: 5px;
+    font-family: "Raleway";
+    font-size: 24px;
+}
+
+.news h2 {
+    border-top: 1px solid #222;
+    padding-top: 10px;
+    /* padding-left: 10px; */
+    margin-bottom: 5px;
+    font-family: "Raleway";
+    font-size: 20px;
+    color: #222;
+}
+
+.news a {
+    text-decoration: none;
+    color: #222;
+}
+
+.news a:hover {
+    text-decoration: none;
+    color: #F44336;
+}
+
+
+.news p {
+    margin-top: 5px;
+    padding: 0 10px;
+    font-family: "Raleway";
     font-size: 18px;
     color: #424242;
 }

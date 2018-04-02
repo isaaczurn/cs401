@@ -7,6 +7,6 @@
     $password = $_POST["password"];
 
     $dao->saveUser($username, $password);
-    header("Location: games.php");
+    header("Location: ../index.php");
     exit;
 ?>
