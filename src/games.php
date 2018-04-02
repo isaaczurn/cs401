@@ -1,6 +1,7 @@
 <?php
     $thisPage = "games";
     include("header.php");
+    require_once("searchbar.html");
     include("footer.php");
     // require_once("dao.php");
     // $dao = new Dao();
