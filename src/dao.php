@@ -24,7 +24,7 @@ class Dao {
 
     public function saveUser ($username, $password) {
         $conn = $this->getConnection();
-        $query = $conn->prepare("INSERT INTO user (username, password) VALUES (:username, :password)");
+        $query = $conn->prepare("INSERT INTO user (loginname, password) VALUES (:username, :password)");
         $query->bindParam(':username', $username);
         $query->bindParam(':password', $password);
         // $this->logger->logDebug(__FUNCTION__ . " name=[{$name}] comment=[{$comment}]");

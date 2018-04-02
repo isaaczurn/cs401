@@ -10,6 +10,7 @@
     $login_success = $dao->login($username, $password);
     if($login_success) {
         $_SESSION['logged'] = true;
+
     }
     header("Location: games.php");
     exit;

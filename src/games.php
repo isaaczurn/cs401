@@ -17,12 +17,7 @@
             $json = $json["apps"];
             foreach ($json as $value) {
                 if($value["appid"] > 9){
-                    $curUrl = 'http://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v0001/?appid=' . $value["appid"];
-                    $players = json_decode(file_get_contents($curUrl, true), true);
-                    // var_dump($players);
-                    $players = $players["response"];
-                    $players = $players["player_count"];
-                    echo "<li>" . $value["name"] . "\t Current Players: "  . $players .  "</li>";
+                    echo "<li>" . $value["name"] . "</li>";
                 }
             }
          ?>
