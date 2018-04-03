@@ -4,6 +4,9 @@
     $dao = new Dao();
     $search_term = $_GET['search'];
     $game = $dao->getGame($search_term);
+    if(!$game){
+        header("Location: games.php");
+    }
     $appid = $game['applist_apps_appid'];
     $gamename = $game['applist_apps_name'];
 ?>

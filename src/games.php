@@ -3,8 +3,8 @@
     include("header.php");
     require_once("searchbar.php");
     include("footer.php");
-    // require_once("dao.php");
-    // $dao = new Dao();
+    require_once("dao.php");
+    $dao = new Dao();
 ?>
 
     <div class="gameslistcontainer">
@@ -21,6 +21,8 @@
                     echo "<li>" . $value["name"] . "</li>";
                 }
             }
+            // $games = $dao->getGames();
+            // print_r($games);
          ?>
         </ul>
 

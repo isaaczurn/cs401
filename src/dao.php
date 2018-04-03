@@ -28,7 +28,8 @@ class Dao {
         $query->bindParam(':username', $username);
         $query->bindParam(':password', $password);
         // $this->logger->logDebug(__FUNCTION__ . " name=[{$name}] comment=[{$comment}]");
-        $query->execute();
+        $success = $query->execute();
+        return $success;
     }
 
     public function login ($username, $password) {
@@ -52,6 +53,17 @@ class Dao {
         $conn = $this->getConnection();
         $query = $conn->prepare("SELECT * FROM games WHERE applist_apps_name=:searchterm");
         $query->bindParam(':searchterm', $search_term);
+        $query->execute();
+        $result = $query->fetch(PDO::FETCH_ASSOC);
+        if($result['applist_apps_name'] == "") {
+            $result = false;
+        }
+        return $result;
+    }
+
+    public function getGames() {
+        $conn = $this->getConnection();
+        $query = $conn->prepare("SELECT * FROM games;");
         $query->execute();
         $result = $query->fetch(PDO::FETCH_ASSOC);
         return $result;
