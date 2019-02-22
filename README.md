@@ -1,3 +1,5 @@
+# CS401
+Repository for cs401(Web Development) @ Boise State. Project was a website for querying games from the Steam games store. Diplays player count and recent news. 
 
 ```
 
